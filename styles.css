@@ -13,7 +13,7 @@ nav.menu-nav ul li.bouton{
   list-style-type: none;
   display: inline-block;
 }
-nav.menu-nav ul li.bouton a{
+.nav.menu-nav ul li.bouton a{
   color: #FF0099; 
   text-decoration: none;
   padding: 50px;
