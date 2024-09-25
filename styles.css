@@ -4,10 +4,11 @@ p{
 body {
   background-color: #3c3c3c; 
 }
-.logo{
+.logo img{
   position: absolute; 
   top: 0; 
   left: 0; 
-  heigh: 80px;
-  Width: auto;
+  height: 100%;
+  width: auto;
+  margin-right: 20px
 }
