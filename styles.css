@@ -12,6 +12,7 @@ body {
 nav.menu-nav ul li.bouton{
     list-style-type: none;
     display: inline-block;
+    background-color: #262626;
 }
 nav.menu-nav ul li.bouton a{
     color: #ff76e4; 
@@ -24,12 +25,4 @@ nav.menu-nav ul li.bouton:hover a{
     background-color: #ff76e4;
     transition: 1s all;
 }
-header{
-    background-color: #262626;
-    top: 0;
-    left: 0;
-    height: 150px;
-    padding-left: 150px;
-    color: white;
-    font-size: 30px;
-}
+
