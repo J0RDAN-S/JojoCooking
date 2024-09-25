@@ -12,7 +12,6 @@ body {
 nav.menu-nav ul li.bouton{
     list-style-type: none;
     display: inline-block;
-    background-color: #262626;
 }
 nav.menu-nav ul li.bouton a{
     color: #ff76e4; 
