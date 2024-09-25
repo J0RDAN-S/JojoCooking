@@ -15,15 +15,15 @@ nav.menu-nav ul li.bouton{
 }
 nav.menu-nav ul li.bouton a{
     color: #ff76e4; 
-    background-color: #3C3C3C;
+    background-color: #262626;
     text-decoration: none;
     padding: 20px;
 }
 nav.menu-nav ul li.bouton:hover a{
-    color: #3C3C3C;
+    color: #262626;
     background-color: #ff76e4;
     transition: 1s all;
 }
 header{
-    background-color: #303030;
+    background-color: #262626;
 }
