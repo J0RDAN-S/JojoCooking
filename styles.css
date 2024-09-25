@@ -10,8 +10,6 @@ body {
   margin-right: 20px
 }
 nav.menu-nav ul li.bouton{
-  display: inline-block;
-}
-nav.menu-nav ul li.bouton{
   list-style-type: none;
+  display: inline-block;
 }
