@@ -2,5 +2,10 @@ p{
   color: red;
 }
 body {
-    background-color: #3c3c3c; 
+  background-color: #3c3c3c; 
+}
+.logo{
+  position: absolute; 
+    top: 0; 
+    left: 0; 
 }
