@@ -23,7 +23,7 @@ body {
 nav.menu-nav ul li.bouton{
     list-style-type: none;
     display: inline-block;
-    padding-left: 120px;
+    margin-left: 120px;
 }
 nav.menu-nav ul li.bouton a{
     color: #ff76e4; 
