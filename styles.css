@@ -2,17 +2,24 @@ body {
   background-color: #3c3c3c; 
 }
 .logo img{
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  height: 100px;
-  width: 100px;
-  margin-right: 20px
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    height: 100px;
+    width: 100px;
+    margin-right: 20px
 }
 nav.menu-nav ul li.bouton{
-  list-style-type: none;
-  display: inline-block;
-  color: #FF0099; 
-  text-decoration: none;
-  padding: 50px;
+    list-style-type: none;
+    display: inline-block;
+}
+nav.menu-nav ul li.bouton a{
+    color: #FF0099; 
+    background-color: #3C3C3C;
+    text-decoration: none;
+    padding: 10px;
+}
+nav.menu-nav ul li.bouton:hover a{
+    color: #3C3C3C;
+    background-color: #FF0099;
 }
