@@ -9,6 +9,11 @@ body {
     width: 100px;
     margin-right: 20px
 }
+.menu-nav{
+    display: flex;
+    justify-content: space-between;
+    backgroun-color: #262626;
+}
 nav.menu-nav ul li.bouton{
     list-style-type: none;
     display: inline-block;
