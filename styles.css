@@ -17,7 +17,7 @@ body {
 .menu-nav{
     height: 100px;
     display: flex;
-    margin-left: 120px;
+    padding-left: 120px;
     padding: 16px;
     background-color: #262626;
 }
