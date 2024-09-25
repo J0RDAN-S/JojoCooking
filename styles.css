@@ -17,6 +17,7 @@ body {
 .menu-nav{
     display: flex;
     justify-content: space-between;
+    padding: 16px;
     backgroun-color: #262626;
 }
 nav.menu-nav ul li.bouton{
