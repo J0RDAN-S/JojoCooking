@@ -26,4 +26,7 @@ nav.menu-nav ul li.bouton:hover a{
 }
 header{
     background-color: #262626;
+    padding-left: 150px;
+    color: white;
+    font-size: 30px;
 }
