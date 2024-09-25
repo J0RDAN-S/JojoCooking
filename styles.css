@@ -24,3 +24,6 @@ nav.menu-nav ul li.bouton:hover a{
     background-color: #ff76e4;
     transition: 1s all;
 }
+header{
+    background-color: #303030;
+}
