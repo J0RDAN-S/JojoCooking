@@ -9,6 +9,11 @@ body {
     width: 100px;
     margin-right: 20px
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .menu-nav{
     display: flex;
     justify-content: space-between;
