@@ -1,6 +1,3 @@
-p{
-  color: red;
-}
 body {
   background-color: #3c3c3c; 
 }
@@ -11,4 +8,10 @@ body {
   height: 100px;
   width: 100px;
   margin-right: 20px
+}
+nav.menu-nav ul li.bouton{
+  display: inline-block;
+}
+nav.menu-nav ul li.bouton{
+  list-style-type: none;
 }
