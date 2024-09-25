@@ -17,13 +17,14 @@ body {
 .menu-nav{
     height: 100px;
     display: flex;
+    margin-left: 120px;
     padding: 16px;
     background-color: #262626;
 }
 nav.menu-nav ul li.bouton{
     list-style-type: none;
     display: inline-block;
-    margin-left: 120px;
+    margin-right: 20px;
 }
 nav.menu-nav ul li.bouton a{
     color: #ff76e4; 
