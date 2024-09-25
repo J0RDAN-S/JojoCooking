@@ -14,13 +14,13 @@ nav.menu-nav ul li.bouton{
     display: inline-block;
 }
 nav.menu-nav ul li.bouton a{
-    color: #eb00ff; 
+    color: #ff008c; 
     background-color: #3C3C3C;
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
 }
 nav.menu-nav ul li.bouton:hover a{
     color: #3C3C3C;
-    background-color: #eb00ff;
+    background-color: #ff008c;
     transition: 1s all;
 }
