@@ -14,15 +14,6 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-.menu-nav{
-    height: 100px;
-    display: flex;
-    padding: 16px;
-    background-color: #262626;
-}
-.menu-nav ul{
-    margin-left: 100px;
-}
 .menu-nav .bouton {
     margin-right: 20px;
 }
