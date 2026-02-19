@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JojoCooking - Gyozas</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js"></script>
+  <link rel="icon" type="image/png" href="IMAGES/LOGO transparent.png">
+</head>
+<body>
+<header>
+  <div class="header-container">
+    <img src="IMAGES/logo.png" alt="Logo du site" class="logo">
+    <img src="IMAGES/banniere.jpg" alt="Image d'en-tête" class="header-image">
+  </div>
+  <nav class="navbar">
+    <ul class="menuderoulant">
+      <li><a href="index.html"><b>ACCUEIL</b></a></li>
+      <li><a href="recettes.html"><b>RECETTES</b></a>
+        <ul class="sousmenu">
+          <li><a href="lasagnes.html">LASAGNES</a></li>
+          <li><a href="tartiflette.html">TARTIFLETTE</a></li>
+          <li><a href="nuggets.html">NUGGETS DE POULET</a></li>
+          <li><a href="tenders.html">TENDERS DE POULET</a></li>
+          <li><a href="escalope.html">ESCALOPE JURASSIENNE</a></li>
+          <li><a href="gyozas.html">GYOZAS</a></li>
+          <li><a href="burgers.html">CHEESEBURGERS</a></li>
+          <li><a href="salade.html">SALADE DE CHÈVRE CHAUD</a></li>
+        </ul>
+      </li>
+      <li><a href="contact.html"><b>CONTACT</b></a></li>
+    </ul> 
+  </nav>
+</header> 
+<main class="content-container">
+  <div class="left-box">
+    <h1 class="plat-title">GYOZAS</h1>
+    <img src="IMAGES/gyozas.jpg" alt="Photo gyozas" class="plat-image">
+  </div>
+  <div class="right-box">
+    <h2 class="ingredients-title">INGRÉDIENTS&nbsp: (&nbsp22 GYOZAS&nbsp)</h2>
+    <div class="ingredients-container">
+      <div class="ingredient-box">
+        <img src="IMAGES/farine.webp" alt="Farine" class="ingredient-image">
+        <p class="ingredient-name">Farine</p>
+      </div>
+      <div class="ingredient-box">
+        <img src="IMAGES/maizena.webp" alt="Maïzena" class="ingredient-image">
+        <p class="ingredient-name">Maïzena</p>
+      </div>
+      <div class="ingredient-box">
+        <img src="IMAGES/boeuf.webp" alt="Boeuf haché" class="ingredient-image">
+        <p class="ingredient-name">400&nbspg   Boeuf haché</p>
+      </div>
+      <div class="ingredient-box">
+        <img src="IMAGES/poireau.webp" alt="Poireau" class="ingredient-image">
+        <p class="ingredient-name">1/2   Poireau</p>
+      </div>
+      <div class="ingredient-box">
+        <img src="IMAGES/oignon.webp" alt="Oignon" class="ingredient-image">
+        <p class="ingredient-name">1 Oignon</p>
+      </div>
+      <div class="ingredient-box">
+        <img src="IMAGES/ail.jpg" alt="Gousses d'ail" class="ingredient-image">
+        <p class="ingredient-name">4 Gousses d'ail</p>
+      </div>
+      <div class="ingredient-box">
+        <img src="IMAGES/sauce soja.webp" alt="Sauce soja sucrée" class="ingredient-image">
+        <p class="ingredient-name">Sauce soja sucrée</p>
+      </div>
+      <div class="ingredient-box">
+        <img src="IMAGES/huile sésame.png" alt="Huile de sésame grillé" class="ingredient-image">
+        <p class="ingredient-name">Huile de sésame grillé</p>
+      </div>
+      <div class="ingredient-box">
+        <img src="IMAGES/paprika.jpg" alt="Paprika" class="ingredient-image">
+        <p class="ingredient-name">Paprika</p>
+      </div>
+      <div class="ingredient-box">
+        <img src="IMAGES/sel poivre.jpg" alt="Sel / Poivre" class="ingredient-image">
+        <p class="ingredient-name">Sel / Poivre</p>
+      </div>
+    </div>
+  </div>
+</main>
+<div class="preparation-container">
+  <h2 class="preparation-title">PRÉPARATION</h2>
+  <div class="tabs">
+    <div class="tab-buttons">
+      <button class="tab-button active" data-tab="step1">ÉTAPE 1&nbsp: Pâte</button>
+      <button class="tab-button" data-tab="step2">ÉTAPE 2&nbsp: Farce</button>
+      <button class="tab-button" data-tab="step3">ÉTAPE 3&nbsp: Confection</button>
+      <button class="tab-button" data-tab="step4">ÉTAPE 4&nbsp: Cuisson</button>
+    </div>
+    <div class="tab-content" id="step1">
+      <p>➤ &nbsp&nbsp&nbsp Dans un saladier, ajoutez 350&nbspg de farine puis versez 1 verre d’eau tiède.</p> 
+      <p>➤ &nbsp&nbsp&nbsp Mélangez à la main jusqu’à obtention d’une boule de pâte plus ou moins élastique (&nbspAjoutez de l’eau ou de la farine si besoin&nbsp).</p>
+      <p>➤ &nbsp&nbsp&nbsp Malaxez la pâte pendant 5 minutes, puis recouvrez d’un torchon sec et laissez reposer 30 minutes.</p> 
+    </div>
+    <div class="tab-content" id="step2" style="display: none;">
+      <p>➤ &nbsp&nbsp&nbsp Émincez 1 oignon et ½ poireau.</p> 
+      <p>➤ &nbsp&nbsp&nbsp Dans un récipient, ajoutez 400&nbspg de bœuf haché, 4 gousses d’ail hachées, 2 cuillères à soupe de sauce soja sucrée, 1 cuillère à soupe d’huile de sésame grillé, sel, poivre, paprika.</p>  
+      <p>➤ &nbsp&nbsp&nbsp Mélangez, puis ajoutez oignon et poireau, puis mélangez de nouveau pour que les ingrédients soient uniformément répartis.</p>
+      <p>➤ &nbsp&nbsp&nbsp Mettre au réfrigérateur.</p>
+    </div>
+    <div class="tab-content" id="step3" style="display: none;">
+      <p>➤ &nbsp&nbsp&nbsp Prenez votre pâte, et confectionnez des petites boules d'environ 2,5&nbspcm de diamètre.</p>
+      <p>➤ &nbsp&nbsp&nbsp Sur votre plan de travail, déposez de la maïzena, et préparez un petit bol d’eau à côté.</p>
+      <p>➤ &nbsp&nbsp&nbsp Prenez une boule de pâte, trempez-la dans l’eau, puis roulez-la dans la maïzena.</p>
+      <p>➤ &nbsp&nbsp&nbsp Avec l’aide d’un rouleau à pâtisserie, aplatissez la pâte finement pour qu’elle forme un disque de 10&nbspcm de diamètre.</p>
+      <p>➤ &nbsp&nbsp&nbsp Recouvrez le disque de pâte de maïzena, puis déposez dans une assiette, puis répétez ces étapes.</p>
+      <p>➤ &nbsp&nbsp&nbsp Badigeonnez une grande poêle d’huile de tournesol (&nbspou autre huile végétale&nbsp).</p>
+      <p>➤ &nbsp&nbsp&nbsp Prenez un disque de pâte, mouillez le bord de votre disque d’eau à l’aide d’un pinceau, puis déposez une bonne cuillère à café de farce au centre du disque.</p>
+      <p>➤ &nbsp&nbsp&nbsp Repliez la pâte en 2 en appuyant sur le haut au milieu, ensuite faites 3 plis de chaque côté.</p>
+      <p>➤ &nbsp&nbsp&nbsp Placez-le dans la poêle précédemment huilée, puis réitérez.</p>
+    </div>
+    <div class="tab-content" id="step4" style="display: none;">
+      <p>➤ &nbsp&nbsp&nbsp Laissez colorer 5 minutes à feu moyen.</p>
+      <p>➤ &nbsp&nbsp&nbsp Versez de l’eau à mi-hauteur des gyozas, couvrez, puis laissez cuire 7 minutes.</p>
+      <p>➤ &nbsp&nbsp&nbsp Retirez le couvercle, passez à feu fort et laissez l’eau s’évaporer pendant 2 à 3 minutes.</p>
+      <p>➤ &nbsp&nbsp&nbsp Répartissez uniformément sur les gyozas 2 cuillères à soupe d’huile de sésame grillé.</p>
+      <p>➤ &nbsp&nbsp&nbsp Laissez sur feu fort 6 à 7 minutes pour caraméliser et légèrement cramer le dessous des gyozas.</p>
+      <p>➤ &nbsp&nbsp&nbsp Munissez-vous de votre condiment préféré et préparez-vous à déguster&nbsp!</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
