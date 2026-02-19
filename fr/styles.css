@@ -551,3 +551,116 @@ a.no-underline {
 .contact-text a:hover {
   color: #f5a0ff; 
 }
+
+/* Style pour le bouton de langue */
+.language-item {
+  margin-left: auto; /* Pousse le bouton vers la droite */
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.language-buttons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: linear-gradient(to right, #3C3C3C, #282828);
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-left: 15px;
+  border: 1px solid #FF76E4;
+}
+
+.lang-btn {
+  text-decoration: none;
+  color: #FF76E4;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.lang-btn:hover {
+  background: linear-gradient(to right, #FF76E4, #ff964f);
+  color: #3C3C3C;
+}
+
+.lang-btn.active {
+  background: linear-gradient(to right, #FF76E4, #ff964f);
+  color: #3C3C3C;
+}
+
+.lang-separator {
+  color: #FF76E4;
+  font-weight: bold;
+}
+
+.menuderoulant {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+  position: relative;
+  width: 100%;
+}
+
+.menuderoulant li:not(.language-item) {
+  width: 200px;
+}
+
+.menuderoulant .language-item a:link,
+.menuderoulant .language-item a:visited {
+  background: transparent;
+  padding: 0;
+}
+
+.menuderoulant .language-item a:hover {
+  background: transparent;
+  color: #ff964f;
+}
+
+@media (max-width: 1200px) {
+  .menuderoulant li:not(.language-item) {
+    width: 150px;
+  }
+  
+  .menuderoulant li a:link,
+  .menuderoulant li a:visited {
+    padding: 15px 5px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .menuderoulant {
+    flex-wrap: wrap;
+  }
+  
+  .menuderoulant li:not(.language-item) {
+    width: 120px;
+  }
+  
+  .language-item {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 5px;
+    justify-content: center;
+  }
+  
+  .language-buttons {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .menuderoulant li:not(.language-item) {
+    width: 100%;
+  }
+  
+  .menuderoulant .sousmenu {
+    position: static;
+    width: 100%;
+  }
+}
